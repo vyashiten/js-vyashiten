@@ -1,3 +1,4 @@
+//  *****************************Conversion*************************//
 /*
 //first way 33
 let score1 = 33 //datatype number
@@ -45,6 +46,7 @@ console.log (valueInNumber);//number came in as NaN (not a number)
 //true=1; false=0
 //"hiten"=>Nan
 
+/*
 let isLoggedIn = 1
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
@@ -54,9 +56,51 @@ console.log(booleanIsLoggedIn)
 //0=> false
 //""=> false
 //"hiten" => true
-
+*/
+/*
 let someNumber = 33
 
 let stringNumber= String(someNumber)//converting in string
 console.log(stringNumber);//printing 
 console.log(typeof stringNumber);//checking the type of printed number 22 after converting, that is string
+*/
+
+//  ***********************************Operations*****************************//
+
+/*
+let value=3;
+let negValue=-value
+console.log(negValue)
+
+//console.log(2+2);
+//console.log(2-2);
+//console.log(2*2);
+//console.log(2**2);
+//console.log(2/3);
+//console.log(2%3);
+*/
+
+/*
+let str1="hello"
+let str2=" hiten"
+
+let str3 = str1 + str2//can't subtract, only add
+console.log(str3);
+
+console.log("1" + 2); //12
+console.log(1 + "2"); //12
+console.log("1" + 2 + 2);//1 is string 2 (number) 2(number), 122, if string is first all following values will be treated as string
+console.log(1 + 2 + "2");//1(number)+2(number) and 2 is string = 32 if string is last, all value before string will work arithmatically
+*/
+console.log(true);
+console.log(+true);
+//console.log(true+); will throw error
+console.log(+"");
+
+let gameCounter = 100
+++gameCounter;
+gameCounter++;
+console.log (gameCounter);
+//study prefix postfix https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment
+
+
