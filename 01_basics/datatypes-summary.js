@@ -61,3 +61,26 @@ Primitive Datatypes
        Function  =>  function
        Object  =>  object
        */
+
+
+//memory type: stack and Heap
+//all primitive type stack memory
+//all non primitive Heap memory
+
+let myname = "hitevyas"
+let anothername= myname
+anothername="mudrayunay"
+
+console.log(myname);
+console.log(anothername);
+
+let userOne = {
+    email: "userone@google.com",
+    empid:"123@123"
+}
+let userTwo = userOne
+
+userTwo.email="usertwo@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
