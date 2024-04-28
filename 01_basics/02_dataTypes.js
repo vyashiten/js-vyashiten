@@ -1,4 +1,4 @@
-"use strict";//treat all JS code as newer version
+"use strict";// treat all JS code as newer version
 
 //alert("hello")
 //alert( 3 + 3) // we are using node js, not browser
@@ -15,14 +15,15 @@ let name = "hiten"
 let age = 18
 let isLoggedIn = false
 
-// common datatypes
-// number  = 1 to the power of 52 (or 53) 
-// bigint
+// common datatypes (primitive data types)
+// number  = 2 to the power of 52 (or 53) 
+// bigint trading, big numbers
 // string => ""
 // boolean => true/false
-// null => standalone value, representation of empty value
-// undefined => value has not been assigned
-// symbol => symbols
+// null => standalone value, representation of empty value 
+//example: ask for temprature and for somereason there is some issue, i don't want to send 0, 0 is actually a temp, I would prefer sending null
+// undefined => value has not been assigned, variable is defined but valueis not assigned, example let state;
+// symbol => symbols unique value
 
 //object
 

@@ -7,7 +7,7 @@ accountCity = "Dayton"
 
 accountEmail = "hv@hv.com"
 accountPassword = "2121211"
-accountCity = "Cincinnati"//possible to use memry space of variable without declaring variable
+accountCity = "Cincinnati"//possible to use memory space of variable without declaring variable
 let accountState;
 
 console.log(accountId);
