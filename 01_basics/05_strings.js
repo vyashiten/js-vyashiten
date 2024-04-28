@@ -1,7 +1,7 @@
 const name = "Hiten"
 const repoCount = 50
 
-console.log(name + repoCount + " value");//older way to concatinate 
+//console.log(name + repoCount + " value");//older way to concatinate 
 
 console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);//new modern way
 
@@ -22,13 +22,14 @@ console.log(newString);
 const anotherString = gameNamewithdash.slice(-7,2)//in slice you can give negative value
 console.log(anotherString);
 
-const newStringOne = "      Hiten     "//trim the white spaces, also check documentation
+const newStringOne = "      Hitenwithspaces     "//trim the white spaces, also check documentation
 console.log(newStringOne);
 console.log(newStringOne.trim());
 
 const url = "https://hiten.com/hiten%20vyas"
 console.log(url.replace('%20', '-'))//replace %20 with -
 console.log(url.includes('yunay'))//ask if url includes specific term
+
 
 console.log(url.split('-'))
 

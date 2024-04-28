@@ -2,12 +2,12 @@
 const score = 400
 console.log(score);
 
-const balance = new Number(100)//Number is uppercase
+const balance = new Number(100)//Number is uppercase, defining type number
 console.log(balance);
 
 console.log(balance.toString());//convert number to string 
 console.log(balance.toString().length);//convert number to string and you can use string properties on them
-console.log(balance.toFixed(2));//decimal value
+console.log(balance.toFixed(2));//decimal value, ecommerce website
 
 const otherNumber = 123.8966
 //console.log(otherNumber.toPrecision(3));
@@ -21,19 +21,19 @@ console.log(hundreads.toLocaleString('en-IN'));//India style after you specify
 //+++++++++++++++++++++++++++ Maths +++++++++++++++++++++++++++++++++++
 //math library comes with JS by default
 
-/*
+
 console.log(Math);//M is uppercase
 
-console.log(Math.abs(-4));//negative sign will be removed
-console.log(Math.round(4.3));//round off
-console.log(Math.round(4.6));//round off
+// console.log(Math.abs(-4));//negative sign will be removed, positive will remain positive but negative will be changed to positive
+// console.log(Math.round(4.3));//round off
+// console.log(Math.round(4.6));//round off
 
-console.log(Math.ceil(4.1));//round off to ceiling
-console.log(Math.floor(4.6));//round off to floor
+// console.log(Math.ceil(4.1));//round off to ceiling
+// console.log(Math.floor(4.6));//round off to floor
 
-console.log(Math.min(5,6,7,8,));//find minimum of array
-console.log(Math.max(4,6,9));//find maximum of array
-*/
+// console.log(Math.min(5,6,7,8,));//find minimum of array
+// console.log(Math.max(4,6,9));//find maximum of array
+
 
 console.log(Math.random());//value will be randomly selected between 0 and 1
 

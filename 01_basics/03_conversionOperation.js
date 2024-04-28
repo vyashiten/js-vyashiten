@@ -92,12 +92,13 @@ console.log(1 + "2"); //12
 console.log("1" + 2 + 2);//1 is string 2 (number) 2(number), 122, if string is first all following values will be treated as string
 console.log(1 + 2 + "2");//1(number)+2(number) and 2 is string = 32 if string is last, all value before string will work arithmatically
 */
-console.log(true);
-console.log(+true);
-//console.log(true+); will throw error
-console.log(+"");
+// console.log(true);
+// console.log(+true);
+// //console.log(true+); will throw error
+// console.log(+"");
 
 let gameCounter = 100
+
 ++gameCounter;
 gameCounter++;
 console.log (gameCounter);

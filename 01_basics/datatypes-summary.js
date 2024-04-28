@@ -1,28 +1,29 @@
 /*
 primitive
- 7 types:
-string
+7 types:
 
-number
+1:string
+
+2: Number
 const score = 100
 const scorevalue = 100.3
 
-boolean
+3: boolean
 const isLoggedIn = false
 
-null (empty)
+4: null -  null is not zero, null is empty
 const outsideTemp = null
 
-undefined - variable declared in memory space declared but we don't know the value
+5: undefined - variable declared in memory space declared but we don't know the value
 let userEmail;
 
-symbol - to make value unique (we wrap the button (or anything) in symbole to make it unique so that can be accessed)
+6: symbol - to make value unique (we wrap the button (or anything) in symbole to make it unique so that can be accessed)
 const Id = Symbol('123')
 const anotherId = Symbol('123')
 
 console.log(Id===anotherId)
 
-BigInt -  usually we cover all in number datatype but some scientific or real big values comes under BigInt
+7: BigInt -  usually we cover all in number datatype but some scientific or real big values comes under BigInt
 const bigNumber = 2345678909876543n put the n at the end and number will become bigint
 /*
 
@@ -31,7 +32,7 @@ const bigNumber = 2345678909876543n put the n at the end and number will become 
 Arrays
 const heros = ["hero1","hero2","hero3"]
 
-Objects are in curley braces
+Objects are in curley braces, you can even save it in variable
 
 let myObj=
 {
@@ -42,10 +43,10 @@ Functions
 
 function(){} -- function defination
 */
-const myFunction = function(){
-    console.log("Hello world");
-}
-console.log(typeof bigNumber);
+// const myFunction = function(){
+//     console.log("Hello world");
+// }
+// console.log(typeof myFunction);
 /*
 Primitive Datatypes
        Number => number

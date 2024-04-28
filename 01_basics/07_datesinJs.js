@@ -16,11 +16,12 @@ console.log(myDate1.toTimeString());//converting date to only time
 console.log(typeof myDate);//date is object in JS
 
 */
+/*
 let myCreatedDate = new Date(2023,0,23)
 //let myCreatedDate = new Date(2023,0,23,5,3)//changing format
 console.log(myCreatedDate.toDateString());//month 0 is Jan in JS,
 console.log(myCreatedDate.toLocaleString());//
-
+*/
 //timestamps
 /*
 let myCreatedDate1 = new Date("01-14-2023")
@@ -41,7 +42,7 @@ console.log(newDate.getMonth());
 //`${ewDate.getDate()} and the time is`
 
 newDate.toLocaleString('default', {
-  weekday: "long" 
+  weekday: "long",
 })
 
 
