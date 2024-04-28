@@ -1,5 +1,5 @@
 //singleton - if you create using constructor, it will be singleton
-//Object.create one way to create object
+//Object.create one way to create object, we are not following this way
 
 //object literals
 
@@ -16,8 +16,8 @@ const JsUser = {
     "full name": "Hiten Vyas"//can not access using console.log(JsUser.email), we have to use square notationconsole.log(JsUser["email"])
 }
 
-console.log(JsUser.email)
-console.log(JsUser["email"])
+console.log(JsUser.email)//one way to access object
+console.log(JsUser["email"])//another way to access object, yo uneed to out it in "" as system is reading it as string
 console.log(JsUser["full name"])
 
 console.log(JsUser.mySym)

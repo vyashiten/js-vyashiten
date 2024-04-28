@@ -18,9 +18,9 @@ const myArray = [1,2,3,4,5]
 myArray.push(6)
 console.log(myArray)
 myArray.push(7)
-console.log(myArray)
-myArray.pop()//pop the last value
-console.log(myArray)
+ console.log(myArray)
+ myArray.pop()//pop the last value
+ console.log(myArray)
 
 myArray.unshift(9)
 console.log(myArray)
@@ -44,10 +44,10 @@ const myArray = [0,1,2,3,4,5]
 
 console.log ("A ", myArray)
 
-const myn1 = myArray.slice(1,3)
-console.log (myn1)
-console.log("B", myArray)
+ const yourArray = myArray.slice(1,3)
+ console.log (yourArray)
+ console.log("B", myArray)
 
-const myn2= myArray.splice(1,3)
-console.log("C",myArray)
-console.log(myn2)
+ const ourArray= myArray.splice(1,3)
+ console.log("C",myArray)//check what is in array
+ console.log(ourArray)

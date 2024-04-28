@@ -19,7 +19,7 @@ console.log(realanotherarray);
 */
 console.log(Array.isArray("Hiten"))
 console.log(Array.from("Hiten"))
-console.log(Array.from({name: "Hiten"}))//interesting
+console.log(Array.from({name: "Hiten"}))//interesting, if it is not able to convert in array, it will give empty array
 
 
 let score1 = 100
